@@ -14,12 +14,12 @@ This project demonstrates a simple AI agent built using the [Agno framework](htt
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repo
 
 ```
-git clone https://github.com/Tjjfast/web-search-agent.git
+git clone https://github.com/Tjjfast/web-search-agent
 cd web-search-agent
 ```
 ### 2. Create .env File
