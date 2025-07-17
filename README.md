@@ -1,4 +1,4 @@
-Agno Web Search Agent
+# Agno Web Search Agent
 
 This project demonstrates a simple AI agent built using the [Agno framework](https://docs.agno.com). The agent uses **Google Gemini** as the LLM and integrates with **DuckDuckGo** tools to fetch real-time web and news data, returning concise one-sentence replies.
 
