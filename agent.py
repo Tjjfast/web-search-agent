@@ -8,7 +8,7 @@ load_dotenv()
 
 web_searcher = Agent(
     name='Web Search Agent',
-    model = Gemini(id='gemini-1.5-flash-lite', api_key = os.getenv('GOOGLE_API_KEY')),
+    model = Gemini(id='gemini-1.5-flash', api_key = os.getenv('GOOGLE_API_KEY')),
     description='An agent that can search the web and news from the web',
     system_message='reply in one sentence.',
     tools=[DuckDuckGoTools()],
