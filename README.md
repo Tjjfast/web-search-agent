@@ -18,41 +18,39 @@ This project demonstrates a simple AI agent built using the [Agno framework](htt
 
 ### 1. Clone the Repo
 
-```bash
+```
 git clone https://github.com/Tjjfast/web-search-agent.git
 cd web-search-agent
-2. Create .env File
+```
+### 2. Create .env File
 Create a file named .env in the root directory and add your Gemini API key:
-
+```
 GOOGLE_API_KEY="exampleAPIkey"
+```
 🔐 Do not share your API key publicly.
-
-3. Install Requirements
+### 3. Install Requirements
+```
 pip install -r requirements.txt
-
-4. Run the Agent
+```
+### 4. Run the Agent
+```
 python agent.py
+```
 The agent will run a web search query and return a one-line response using Gemini.
 
-Example Prompt :
-
+### Example Prompt :
+```
 Give me one headline about AI from the last 24 hours.
--> The agent will fetch relevant web content and return a summarized one-line answer.
+```
+The agent will fetch relevant web content and return a summarized one-line answer.
 
-Project Structure :
-
+### Project Structure :
+```
 📁 web-search-agent/
 ├── agent.py              # Main script
 ├── .env                  # API key 
 ├── requirements.txt      # Dependencies
 └── README.md             # This file
-
-Demo Video :
+```
+### Demo Video :
 Watch the demo video [here](https://pages.github.com/)
-
-
-Google Gemini API
-
-DuckDuckGo Toolkit
-
-Python 3.10+
