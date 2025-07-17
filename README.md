@@ -27,7 +27,7 @@ Create a file named .env in the root directory and add your Gemini API key:
 ```
 GOOGLE_API_KEY="exampleAPIkey"
 ```
-🔐 Do not share your API key publicly.
+Do not share your API key publicly.
 ### 3. Install Requirements
 ```
 pip install -r requirements.txt
